@@ -25,9 +25,9 @@ commands:
       <<: *env-suffix-parameter
     steps:
       - aws-cli/setup:
-          aws-access-key-id: AWS_ACCESS_KEY_ID
-          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-          aws-region: AWS_REGION
+          aws-access-key-id: ASIAQU62E6EGR6QP32SF
+          aws-secret-access-key: FRQisIFtBWLr8dKr6/uC8mgMO/4Dl3lkkNmA4F7C
+          aws-region: us-east-1
 
   generate-preview-hash:
     steps:
